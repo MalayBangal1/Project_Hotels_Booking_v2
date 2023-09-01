@@ -17,7 +17,7 @@ const contactMail = async(contact) => {
             theme:"default",
             product:{
                 name: "StaySense",
-                link: `'http://localhost:3000'`
+                link: `'https://book-hotels-th2p.onrender.com'`
             }
         });
         

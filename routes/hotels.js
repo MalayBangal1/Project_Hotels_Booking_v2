@@ -302,8 +302,8 @@ router.post('/hotels/:id/checkout', isLoggedIn, async (req, res) => {
 				}
 			],
 			mode: 'payment',
-			success_url: `http://localhost:3000/hotels/${hotel._id}/checkout/success`,
-			cancel_url: `http://localhost:3000/hotels/${hotel._id}/checkout/cancel`
+			success_url: `https://book-hotels-th2p.onrender.com/hotels/${hotel._id}/checkout/success`,
+			cancel_url: `https://book-hotels-th2p.onrender.com/hotels/${hotel._id}/checkout/cancel`
 		});
 		const paymentInfo = {
 			...req.body,

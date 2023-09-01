@@ -34,11 +34,11 @@ const SESSION_SECRET = process.env.SESSION_SECRET;
 app.use(
 	session({
 		secret: SESSION_SECRET,
-		resave: true,
+		resave: false,
 		saveUninitialized: true,
 		cookie: {
-			httpOnly: true,
-			// secure: true,
+			// httpOnly: true,
+			secure: true,
 			expires: Date.now() + 1000 * 60 * 60 * 24,
 			maxAge: 1000 * 60 * 60 * 24
 		}
