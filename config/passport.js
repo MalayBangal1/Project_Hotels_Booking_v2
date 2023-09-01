@@ -11,7 +11,7 @@ module.exports.passportInit = (app) => {
 			{
 				clientID: process.env.GOOGLE_CLIENT_ID,
 				clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-				callbackURL: 'https://book-hotels-th2p.onrender.com/auth/google/process',
+				callbackURL: 'https://book-hotels-hpx8.onrender.com/auth/google/process',
 				passReqToCallback: true
 			},
 			oAuth.authUser
