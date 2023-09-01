@@ -34,8 +34,8 @@ const SESSION_SECRET = process.env.SESSION_SECRET;
 app.use(
 	session({
 		secret: SESSION_SECRET,
-		saveUninitialized: true,
 		resave: true,
+		saveUninitialized: true,
 		cookie: {
 			// httpOnly: true,
 			secure: true,
