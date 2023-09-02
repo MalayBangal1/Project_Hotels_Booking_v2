@@ -11,7 +11,7 @@
 <ul>
        <li>  Successfully integrated the Stripe payment gateway. </li>
 	<li> Allowing users to make secure online payments for hotel bookings.  </li>
-	<li> Demonstrated proficiency in handling financial transactions and ensuring data security.   </li>
+	<li> Handling financial transactions and ensuring data security.   </li>
 </ul>
 
 <h3> 3.Cloud Image Management:</h3> 
@@ -50,8 +50,8 @@
 
 <ul>
         <li> Implemented data pagination using the "mongoose-paginate-v2" library. </li>
-	<li> Optimizing the performance of data retrieval for hotel listings and.  </li>
-	<li> Improving the overall user experience. </li>
+	<li> Optimizing the performance of data retrieval for hotel listings.  </li>
+	<li> And Improving the overall user experience. </li>
 </ul>
 
 <h3> 8.Responsive Design with EJS: </h3>
